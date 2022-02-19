@@ -16,4 +16,4 @@ mix.js('resources/js/app.js', 'public/js')
         //
     ]).postCss('resources/css/welcome.css', 'public/css', [
         
-    ]);
+    ]).js('resources/js/welcome.js', 'public/js');

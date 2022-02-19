@@ -16,4 +16,38 @@ body {
 }
 .stap1 .container {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.stap1 .container .content_container {
+    background: rgba(128, 128, 128, 0.486);
+    padding: 10px;
+    border-radius: 8px;    
+}
+.stap1 .container div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.stap1 h1 {
+    font-size: 64px;
+    text-align: center;
+    -webkit-text-decoration: underline solid white;
+            text-decoration: underline solid white;
+    margin-bottom: 10px;
+}
+.stap1 p {
+    font-size: 18px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.stap1 button {
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 45px;
+    border-radius: 8px;
+}
+

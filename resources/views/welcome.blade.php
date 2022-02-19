@@ -3,7 +3,9 @@
 <title>Welcome</title>
 <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
 @endsection
-
+@section('popup_content')
+<h4>privet</h4>
+@endsection
 @section("content")
 <section style="height:100vh;" class="stap1">
     <div class="container">
@@ -12,7 +14,9 @@
         <p>Оптом и в розницу</p>
         <p>Доставка по всему РК</p>
         <p>Более 200 наименовании продукта</p>
+        <button class="btn btn-danger showpopup">Купить продукт</button>
     </div>
-</div>
+    </div>
 </section>
+<script src="{{ asset('js/welcome.js') }}"></script>
 @endsection

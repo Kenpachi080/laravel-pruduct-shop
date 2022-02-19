@@ -17,6 +17,7 @@
 
 <body>
     @include('constructors.header')
+    @include('constructors.popup')
     @yield('content')
 </body>
 
