@@ -4,11 +4,94 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    margin: 0px;
+}
+
 .mtop50 {
     margin-top: 50px;
 }
 
 .mbottom50 {
     margin-bottom: 50px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.header_navigation {
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+
+.header_navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    flex-direction: row;
+
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.header_navigation nav {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.contacts {
+    flex: auto;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.contacts > div, li {
+    padding: 10px;
+}
+.phone {
+    font-size: 18px;
+}
+.fa-instagram {
+    margin-left: 5px;
+    padding: 6px 9px !important;
+}
+.center {
+    margin: 0px auto;
+}
+.contacts .fa {
+    padding: 6px 12px;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    height: auto;
+}
+
+.header_navigation nav li {
+    color: white;
+}
+
+.header_navigation nav a {
+    color: white;
+    text-decoration: none;
 }
 
