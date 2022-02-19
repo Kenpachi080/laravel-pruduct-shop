@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+
+.stap1 {
+    background-image: url("/img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
