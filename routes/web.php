@@ -54,3 +54,4 @@ Route::get('/', function () {
         });
     });
 
+Route::get('user', 'UserController@index')->name('user');
